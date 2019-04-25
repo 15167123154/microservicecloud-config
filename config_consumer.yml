@@ -3,16 +3,15 @@
        active: dev
      application:
        name: config_consumer_application_name
-info:
-  appName: config_consumer
-  company: wangwei
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
 ---
+server:
+  port: 1004
 spring:
   profiles: dev
 from: aa
 ---
+server:
+  port: 1005
 spring:
   profiles: test
 from: aa
