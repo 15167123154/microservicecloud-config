@@ -3,6 +3,11 @@
        active: dev
      application:
        name: config_consumer_application_name
+info:
+  appName: config_consumer
+  company: wangwei
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 spring:
   profiles: dev
