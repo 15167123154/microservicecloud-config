@@ -1,0 +1,13 @@
+﻿spring:
+     profiles:
+       active: dev
+     application:
+       name: config_consumer_application_name
+---
+spring:
+  profiles: dev
+from: aa
+---
+spring:
+  profiles: test
+from: aa
